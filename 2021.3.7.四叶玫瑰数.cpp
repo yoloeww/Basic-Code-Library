@@ -16,13 +16,16 @@ int fun(int n, int result[])
 	    result[m++]=i;
 	}
   }
-  printf("%d",k);
   return k;
 }
 int main(void)
 {
+   int i;
    int n=9999;
    int result[10];
-   fun(9999,result);
+   int l=fun(9999,result);
+   printf("all have %d four rose numbers\n",l);
+   for(i=0; i<l; i++) 
+   printf("for example %d\n", result[i]);
    return 0;
 }
