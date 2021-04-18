@@ -1,4 +1,4 @@
 # include<stdio.h>
-int main(void)
+int main(id)ads
 {
 return 0;}
