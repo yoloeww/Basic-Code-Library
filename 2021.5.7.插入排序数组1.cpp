@@ -2,4 +2,4 @@
 # define M 4
 # define N 5
 int main(void)
-{
+{return 0}
