@@ -1,7 +1,7 @@
 # include<stdio.h>
 int main(void)
 {
-	int a[3]={2,23,6};
+	int a[3]={2,23,6}; 
 	int i,j,k;
 	for(i=0;i<2;i++)
 	{
