@@ -1,6 +1,5 @@
 # include<stdio.h>
 # include<string.h>
-
 void sort(char *p1,char *p2,char p3[])
 {
 	int i=0,j,k;
